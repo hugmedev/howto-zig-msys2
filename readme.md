@@ -3,7 +3,7 @@
 1. install windows
 1. install msys2
 1. from msys2 install mingw-w64-x86_64-toolchain mingw-w64-x86_64-glfw mingw-w64-x86_64-glew
-1. download zig from official site
+1. download master version of zig from official site
 1. from msys2 set `export PATH="/path/to/zig:$PATH"` in ~/.bashrc
 1. from msys2 create a directory for your project and cd there.
 1. zig init-exe
@@ -24,7 +24,7 @@
     }
     ```
     Inspiration has been taken from https://github.com/andrewrk/zig-sdl/blob/13cb642ba827bb069c5b66a912dd26a072dfe9b0/build.zig#L100
-1.  Now you can do zig build.
+1.  Now you can do zig build -Dtarget=x86_64-windows-gnu
 
 # To distribute your binaries,
 from msys2 use `ldd /path/to/your/binary`
