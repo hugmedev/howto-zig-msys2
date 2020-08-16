@@ -33,3 +33,6 @@ This will list all dlls you depend on. You should copy only ones that are not in
 
 1. they are probably already installed in windows of humans
 1. probably distribution of dlls from inside of your windows system folder has some licensing weakness
+
+
+When you have your executable and all dlls it need in on directory, you can distribute it as zip or package it the way you want
